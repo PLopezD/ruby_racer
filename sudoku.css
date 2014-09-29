@@ -1,0 +1,34 @@
+input {
+  margin: 0px 0px 0px 0px;
+  width: 34px;
+  height: 34px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+#solve_button{
+  margin-top: 10px;
+  width: 100px;
+}
+
+#table_container td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#table_container td {
+  text-align: center;
+  font-size: 18px;
+}
+
+#td4, #td7, #td13, #td16, #td22, #td25, #td31, #td34, #td40, #td43, #td49, #td52, #td58, #td61, #td67, #td70, #td76, #td79 {
+  border-left: 3px solid black;
+}
+
+#tr3, #tr6 {
+  border-top: 3px solid black;
+}
+

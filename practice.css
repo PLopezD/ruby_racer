@@ -1,0 +1,46 @@
+.form-group {
+  /*width: 20%;*/
+  text-align: center;
+  display: block;
+  width: 200px;
+}
+
+.btn-success {
+  border-radius: 50px;
+  width: 300px;
+  padding: 1%;
+  margin-top: 5%;
+}
+
+.btn-danger{
+  border-radius: 50px;
+  width: 300px;
+  padding: 1%;
+  margin-top: 5%;
+}
+
+.btn-warning {
+  border-radius: 50px;
+  width: 300px;
+  background-color: #FFD801;
+  margin-top: 5%;
+  padding: 1%;
+}
+
+
+#buttons {
+  text-align: center;
+/**/
+
+}
+
+.game {
+margin: 10%
+}
+
+.progress {
+}
+
+body{
+  background-image:url("http://www.herbiemania.com/montec2.jpg")
+}
