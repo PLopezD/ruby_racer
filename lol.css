@@ -1,15 +1,156 @@
-#progressBar {
-        width: 400px;
-        height: 22px;
-        border: 1px solid #111;
-        background-color: #292929;
+.form-group {
+  text-align: center;
+  display: block;
+  width: 200px;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  background-color: #FFFF66;
 }
 
-#progressBar div {
-        height: 100%;
-        color: #fff;
-        text-align: right;
-        line-height: 22px; /* same as #progressBar height if we want text middle aligned */
-        width: 0;
-        background-color: #0099ff;
+.jumbotron {
+  padding: 1%;
+  color: #736AFF;
+  background-color: #F5FF6B;
+  opacity: .8
+
 }
+
+.gal-1 p {
+  color:blue;
+  -moz-transition: 0.6s ;
+  -webkit-transition: 0.6s ;
+  -ms-transition: 0.6s ;
+  -o-transition: 0.6s ;
+  transition: 0.6s ;
+  opacity:0.5;
+  border: solid;
+  height: 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 3em
+}
+
+.gal-1 p:hover {
+  transform:scale(0);
+  z-index:2;
+  -moz-box-shadow:5px 3px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow:5px 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow:5px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.jumbotron h1 {
+  border: solid;
+
+  height: 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 3em
+}
+
+.btn-success {
+  border-radius: 50px;
+  width: 300px;
+  padding: 1%;
+  margin-top: 1%;
+}
+
+.btn-danger{
+  border-radius: 50px;
+  width: 300px;
+  padding: 1%;
+  margin-top: 1%;
+}
+
+.btn-warning {
+  border-radius: 50px;
+  width: 300px;
+  margin-top: 1%;
+  padding: 1%;
+}
+
+#buttons {
+  text-align: center;
+  margin-top: 1%;
+  margin: 5%;
+}
+
+#wrapper {
+  margin-top: 1%;
+}
+
+.game {
+  position: relative;
+  padding-left:100px;
+  padding-right:100px 
+}
+
+.btn-default{
+    position: relative;
+}
+
+.bounceInDown{
+  text-align: center; 
+  font-size:3em;
+  font-family: Georgia, Serif;
+
+}
+
+
+body{
+  /*background-image:url("herbie.jpg")*/
+  background-color: #fff; 
+  background-image: 
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+}
+
+.racetrack { 
+  height: 25px;
+  border: 1px solid #111;
+  background-color: #D84A38;
+  margin: .2%; 
+  border-radius: 30px;
+  overflow: hidden;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+
+
+}
+
+#track1 { 
+  background-color: blue;
+}
+#track2 { 
+  background-color: green;
+}
+#track3 { 
+  background-color: #8B2EC1;
+}
+#track4 { 
+  background-color: #FF51EA;
+}
+#track5 { 
+  background-color: #A8C42F;
+}
+#track6 { 
+  background-color: #448DC4;
+}
+#track7 { 
+  background-color: #43C1B9;
+}
+#track8 { 
+  background-color: #EA9AB8;
+}
+#track9 { 
+  background-color: #81EFC7;
+}
+#track10 { 
+  background-color: #FFC551;
+}
+
+]\

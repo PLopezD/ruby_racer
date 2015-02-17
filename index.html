@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-
-  <title>Sudoku Solver</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link href="..sudoku.css" rel="stylesheet">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="sudoku.js"></script>
-  <script type="text/javascript" src="solver.js"></script>
-
-
+  <title> lol</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="lol.css">
 </head>
-
 <body>
-  <div class="container" id="page_container">
-    <div class="container" id="table_container">
-    </div>
-    <div class="container" id="button_container">
-      <button id="solve_button" type="button" class="btn btn-primary">Solve! </button>
+
+  <div class="gal-1"><p> <i class="fa fa-car fa-lg"></i>Welcome to JS Racer <i class="fa fa-car fa-lg"></i></p> </div>
+  <div id="wrapper">
+    <div id='buttons'>
+      <button class="btn-success">Start</button><br>
+      <button class="btn-warning">Add New Player</button><br>
+      <button class="btn-danger">Remove Player</button><br>
+
+      <div id="forms">
+        <input class='form-group' id='form1' placeholder="Player 1"  maxlength="20"></input>
+        <input class='form-group'  id='form2' placeholder="Player 2" maxlength="20"></input>
+      </div>
     </div>
   </div>
-  <div class="container" id="impossible_board_alert"></div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="jquery-ui.min.js"></script>
+  <script type="text/javascript" src="lol.js"></script>
 
+  <div class="game">
+    <div class='animated bounceInDown'>Winner</div>
+
+  </div>
 </body>
-
 </html>
